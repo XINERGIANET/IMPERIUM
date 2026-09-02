@@ -149,8 +149,8 @@
 			align-items: center;
 			justify-content: center;
 			padding: 48px 64px;
-			background: linear-gradient(145deg, #f4f8fd 0%, #e8f0fa 45%, #dce9f7 100%);
-			border-left: 1px solid #e2e8f0;
+			background: #010713;
+			border-left: 1px solid rgba(255, 255, 255, 0.08);
 		}
 
 		.brand-content {
@@ -167,10 +167,9 @@
 			align-items: center;
 			justify-content: center;
 			width: 100%;
-			padding: 32px 40px;
-			border-radius: 20px;
-			background: rgba(255, 255, 255, 0.85);
-			box-shadow: 0 18px 48px rgba(30, 79, 143, 0.1);
+			padding: 0;
+			background: transparent;
+			box-shadow: none;
 		}
 
 		.brand-logo {
@@ -181,7 +180,7 @@
 
 		.brand-tagline {
 			margin: 28px 0 0;
-			color: var(--login-blue-dark);
+			color: #dfbe76;
 			font-size: 22px;
 			font-weight: 700;
 			line-height: 1.35;
@@ -191,7 +190,7 @@
 		.brand-description {
 			margin: 12px 0 0;
 			max-width: 420px;
-			color: var(--login-muted);
+			color: #94a3b8;
 			font-size: 17px;
 			line-height: 1.55;
 		}
@@ -201,8 +200,9 @@
 			margin-top: 28px;
 			padding: 8px 18px;
 			border-radius: 999px;
-			background: var(--login-blue);
-			color: #ffffff;
+			background: rgba(212, 175, 55, 0.12);
+			border: 1px solid rgba(212, 175, 55, 0.35);
+			color: #dfbe76;
 			font-size: 13px;
 			font-weight: 600;
 			letter-spacing: 0.04em;
@@ -223,11 +223,11 @@
 				order: -1;
 				padding: 36px 22px 28px;
 				border-left: 0;
-				border-bottom: 1px solid #e2e8f0;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 			}
 
 			.brand-logo-wrap {
-				padding: 24px 28px;
+				padding: 0;
 			}
 
 			.brand-logo {
@@ -307,10 +307,10 @@
 			</div>
 		</section>
 
-		<section class="brand-panel" aria-label="Xinergia">
+		<section class="brand-panel" aria-label="Imperium Capital">
 			<div class="brand-content">
 				<div class="brand-logo-wrap">
-					<img src="{{ asset('assets/images/xinergia.png') }}" class="brand-logo" alt="Xinergia">
+					<img src="{{ asset('assets/images/image.png') }}" class="brand-logo" alt="Imperium Capital">
 				</div>
 				<p class="brand-tagline">Software de gestión para financieras</p>
 				<p class="brand-description">Plataforma integral para administrar clientes, contratos, cobranzas y operaciones de tu empresa.</p>
